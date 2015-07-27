@@ -1,0 +1,27 @@
+/* os specific include */
+#include ...
+
+/* typedef os specific struct of cmap as cmap_t */
+typedef ... cmap_t;
+
+/* size of cmap->{red,green,blue} (byte) */
+enum {
+	CMAP_COLOR_LENGTH = ...,
+};
+
+/* essential 4 functions */
+void alloc_cmap(cmap_t *cmap, int colors)
+{
+}
+
+int put_cmap(int fd, cmap_t *cmap)
+{
+}
+
+int get_cmap(int fd, cmap_t *cmap)
+{
+}
+
+bool set_fbinfo(int fd, struct fb_info_t *info)
+{
+}
