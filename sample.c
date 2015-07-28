@@ -1,5 +1,5 @@
 /* See LICENSE for licence details. */
-#include "fb/common.h"
+#include "include/yafblib.h"
 
 void draw_point(struct framebuffer_t *fb, int height, int width, uint32_t color)
 {

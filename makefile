@@ -6,7 +6,7 @@ LDFLAGS ?=
 
 DST = sample
 
-HDR = fb/util.h fb/common.h fb/openbsd.h fb/netbsd.h fb/linux.h fb/freebsd.h fb/color.h
+HDR = include/util.h include/yafblib.h include/openbsd.h include/netbsd.h include/linux.h include/freebsd.h
 SRC = $(DST).c
 
 all: $(DST)
