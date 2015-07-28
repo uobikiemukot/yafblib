@@ -15,7 +15,7 @@ There are 2 directories:
 -	include: header-only library
 -	lib: static/shared library
 
-This library is part of [yaft](https://github.com/uobikiemukot/yaft/).
+This library is a part of [yaft](https://github.com/uobikiemukot/yaft/).
 
 ## usage
 
