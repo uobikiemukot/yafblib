@@ -1,11 +1,4 @@
 /* See LICENSE for licence details. */
-/* XXX: _XOPEN_SOURCE >= 600 invalidates __BSD_VISIBLE
-	so define some types manually */
-typedef unsigned char   unchar;
-typedef unsigned char   u_char;
-typedef unsigned short  ushort;
-typedef unsigned int    u_int;
-typedef unsigned long   u_long;
 #include <sys/param.h>
 #include <dev/wscons/wsdisplay_usl_io.h>
 #include <dev/wscons/wsconsio.h>
