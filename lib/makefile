@@ -2,7 +2,6 @@ CC ?= gcc
 AR ?= ar
 #CC ?= clang
 
-
 VERSION   = 1
 MINOR_VER = 1.0.0
 PREFIX = /usr
